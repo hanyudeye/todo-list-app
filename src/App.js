@@ -2,6 +2,7 @@ import React from 'react';
 import TodoList from './components/TodoList';
 import YearTabs from './components/YearTabs';
 import WelcomeDiv from './components/WelcomeDiv';
+import DynamicData from './components/DynamicData';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <WelcomeDiv />
       <div>niheoa
         <button>nihao</button>
+        good,ssuub 你是谁，大胆
+        <DynamicData />
       </div>
     </div>
   );
